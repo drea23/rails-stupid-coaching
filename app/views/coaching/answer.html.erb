@@ -1,7 +1,5 @@
-<h1>Réponse</h1>
-<form action="answer" method="">
-  <input type="text" name="query" id="">
-  <input type="submit" name="submit" id="">
-</form>
+<div><h1>Réponse</h1>
 
-<%= @ask %>
+  <%= @ask %><br>
+  <%= @answer %><br>
+  <%= link_to "Poser une autre question?", "/ask" %></div>

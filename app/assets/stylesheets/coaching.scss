@@ -1,3 +1,21 @@
 // Place all the styles related to the coaching controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#question {
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: crimson;
+}
+
+.titre {
+  margin: 2vh;
+}
+
+.container {
+  margin-top: 40vh;
+}
+
+.bouton {
+  background: transparent;
+  border: none;
+}
